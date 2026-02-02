@@ -1,5 +1,3 @@
-# Valentines-Day
-Nikky
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -129,14 +127,14 @@ Nikky
     <h2>This is from my heart…</h2>
 
     <p>
-      Every moment with you feels like home.<br>
-      Your smile, your warmth, the way you exist —
-      it all means more to me than words can say.
+      Every moment with you feels special.<br>
+      Your smile, your kindness, the way you are —
+      it all means more to me than you know.
     </p>
 
     <p>
-      This Valentine’s Day isn’t just about today…
-      it’s about every tomorrow I hope to spend with you.
+      This Valentine’s Day, I just wanted to ask you
+      something simple, honest, and full of feeling.
     </p>
 
     <h2>Will you be my Valentine? 🌹</h2>
@@ -151,18 +149,17 @@ Nikky
 <script>
   function yesClicked() {
     alert(
-      "You just made me the happiest person alive ❤️\n\n" +
-      "Nikky, I don’t just want this Valentine’s Day with you...\n" +
-      "I want a lifetime.\n\n" +
-      "I want to marry you 💍"
+      "You just made me smile so much ❤️\n\n" +
+      "Thank you for being you.\n" +
+      "This Valentine’s Day just became very special 💖"
     );
   }
 
   function noClicked() {
-    alert("That button doesn’t work 😌💖");
+    alert("That button is just teasing 😌💖");
   }
 
-  // Create floating hearts
+  // Floating hearts animation
   function createHeart() {
     const heart = document.createElement("div");
     heart.className = "heart";
@@ -182,3 +179,4 @@ Nikky
 
 </body>
 </html>
+
